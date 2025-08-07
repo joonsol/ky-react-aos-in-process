@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react'
 import './style/Hero.css'
+import image from '../assets/img3.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
@@ -23,6 +24,7 @@ const Hero = () => {
         <p data-aos='fade-up' data-aos-delay="100">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, voluptas!
         </p>
+        <img src={image} alt="image" />
       </div>
     </section>
   )

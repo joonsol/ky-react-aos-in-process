@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Contact from './components/Contact'
 import Aboutme from './components/Aboutme'
 import Skill from './components/Skill'
+import Board from './components/Board'
 function App() {
 
 
@@ -13,6 +14,7 @@ function App() {
       <Contact />
       <Aboutme />
       <Skill />
+      <Board/>
     </div>
   )
 }
